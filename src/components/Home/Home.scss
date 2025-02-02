@@ -1,0 +1,65 @@
+.styleOne{
+    margin: 30px;
+    font-size: 2.25rem;
+    background-image: linear-gradient(to Right ,#F29724,#ca1023c4 );
+    background-clip: text;
+    color: transparent;
+}
+.bsm{
+    padding-block: calc(var(--spacing) * 2.5);
+    padding-inline: calc(var(--spacing) * 5);
+    margin-inline-end: calc(var(--spacing) * 2);
+    margin-bottom: calc(var(--spacing) * 2);
+}
+.active{
+    background-color: black;
+    color: white;
+}
+.m{
+    margin-left: -7px;
+    margin-top: 40px;
+}
+.imge{
+    width: 55%;
+    border-radius: 50%;
+    font-size: 20px;
+    position: relative;
+    left: 23%;
+    top: -35px;
+    transition-duration: 0.6s;
+
+}
+.data{
+    top: 0;
+    display: flex;
+    flex-direction: column;
+}
+.mj{
+    margin-bottom: 30px;
+}
+.l{
+    padding-inline: calc(var(--spacing) * 5) /* 1.25rem = 20px */;
+    padding-block: calc(var(--spacing) * 2.5) /* 0.625rem = 10px */;
+    margin-inline-end: calc(var(--spacing) * 2) /* 0.5rem = 8px */;
+    margin-bottom: calc(var(--spacing) * 2) /* 0.5rem = 8px */;
+    width: 50%;
+    margin-top: 12px;
+    position: relative;
+    left: 3%;
+    cursor: pointer;
+}
+.size{
+    font-size: 20px;
+}
+.styling{
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.styling:hover{
+    transform: scale(1.05);
+    img{
+        transform: rotate(360deg);
+    }
+}

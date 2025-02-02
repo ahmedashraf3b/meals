@@ -1,0 +1,25 @@
+h1{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.sd{
+    padding-inline: calc(var(--spacing) * 6) /* 1.5rem = 24px */;
+    padding-block: calc(var(--spacing) * 4) /* 1rem = 16px */;
+}
+.p{
+    padding: 20px;
+}
+.pt{
+    padding-top: 18px;
+}
+.styy{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.l{
+    padding-inline: calc(var(--spacing) * 5) /* 1.25rem = 20px */;
+    padding-block: calc(var(--spacing) * 2.5) /* 0.625rem = 10px */;
+    margin-inline-end: calc(var(--spacing) * 2) /* 0.5rem = 8px */;
+    margin-bottom: calc(var(--spacing) * 2) /* 0.5rem = 8px */;
+}

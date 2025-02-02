@@ -1,0 +1,38 @@
+.positon {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  width: 20%;
+  height: 100%;
+  .w {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    .width {
+      width: 100%;
+    }
+    .buttonOne {
+      background-color: orange;
+      width: 88%;
+      padding: 7px;
+      margin: 5px;
+      margin-top: 10px;
+      margin-left: 15px;
+      text-align: left;
+      color: white;
+      cursor: pointer;
+    }
+    .buttonTwo {
+      background-color: #f1f1f1;
+      width: 88%;
+      padding: 7px;
+      margin: 5px;
+      margin-top: 10px;
+      margin-left: 15px;
+      text-align: left;
+      cursor: pointer;
+    }
+  }
+}
