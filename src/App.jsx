@@ -10,12 +10,12 @@ import GetDetailsMeals from './components/GetDetailsMeals/GetDetailsMeals';
 
 let router = createBrowserRouter([
   {
-    path: "",
+    path: "meals/",
     element: <Layout />,
     children: [
-      {path: '', element : <Home/>},
+      {index:true, element : <Home/>},
       {path: `GetDetailsMeals/:id/`, element : <GetDetailsMeals/>},
-      {path: '*', element : <Notfound/>},
+      {path: 'meals/1', element : <Notfound/>},
       {path: 'GetDetailsMeals/:id/*', element : <Notfound/>},
       // {path: '/GetDetailsMeals/:id/*', element : <Notfound/>}
     ]

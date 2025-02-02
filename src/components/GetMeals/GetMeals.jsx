@@ -34,7 +34,7 @@ export default function GetMeals() {
             <div className="data text-center  h-[100%]">
               <h1 className="size"> {res.strMeal}</h1>
               <p className="text-emerald-400 "><i className="fa-solid fa-earth-europe"></i>{res.strArea}</p>
-              <Link to={`/GetDetailsMeals/${res.idMeal}/`}><button  type="button" className="text-white bg-green-500 hover:bg-green-500 focus:outline-none focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm  text-center l">View Ricepe</button></Link>
+              <Link to={`GetDetailsMeals/${res.idMeal}/`}><button  type="button" className="text-white bg-green-500 hover:bg-green-500 focus:outline-none focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm  text-center l">View Ricepe</button></Link>
             </div>
           </div>))}
     </>
