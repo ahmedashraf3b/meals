@@ -13,10 +13,10 @@ let router = createBrowserRouter([
     path: "",
     element: <Layout />,
     children: [
-      {path: 'meals/', element : <Home/>},
-      {path: `meals/GetDetailsMeals/:id/`, element : <GetDetailsMeals/>},
-      {path: 'meals/*', element : <Notfound/>},
-      {path: 'meals/GetDetailsMeals/:id/*', element : <Notfound/>},
+      {path: '', element : <Home/>},
+      {path: `GetDetailsMeals/:id/`, element : <GetDetailsMeals/>},
+      {path: '*', element : <Notfound/>},
+      {path: 'GetDetailsMeals/:id/*', element : <Notfound/>},
       // {path: '/GetDetailsMeals/:id/*', element : <Notfound/>}
     ]
   },
